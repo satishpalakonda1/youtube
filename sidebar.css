@@ -1,0 +1,38 @@
+.side_bar
+{
+    display: grid;
+    background-color: white;
+    position: fixed;
+    left: 0px;
+    top: 90px;
+    bottom: 0px;
+    width: 90px;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: co;
+
+
+}
+.side-bar-link{
+    height: 75px;
+}
+.side-bar-link:hover{
+    background-color: lightgray;
+}
+.side-home{
+    height: 30px;
+    width: 24px;
+    
+}
+.side_bar img{
+    height: 30px;
+    width: 24px;
+    padding: 10px;
+    margin-bottom: -10px;
+
+}
+.side_bar div{
+   text-align: center;
+   align-items: center;
+   padding-bottom: 15px;
+}

@@ -1,0 +1,147 @@
+body{
+    height: 3000px;
+    padding-top: 100px;
+}
+.heading
+{
+    display: flex;
+    justify-content: space-between;
+    height: 90px;
+    position: fixed;
+    left: 0;
+    right: 0;
+    top: 0;
+
+    background-color: white;
+
+    border-bottom-width: 1px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(233, 226, 226);
+   
+    
+}
+.left{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    width: 250px;
+   
+    
+}
+.left-menu
+{
+    height: 30px;
+    width: 24px;
+    margin-left: 30px;
+    margin-right: 40px;
+}
+.left-home
+{
+    height: 30px;
+    width: 25px;
+}
+.left-youtube
+{
+    height: 90px;
+    width: 60px;
+    margin-right: 30px;
+  
+    
+}
+.middle{
+   
+    display: flex;
+    align-items: center;
+    flex: 1;
+    width: 400px;
+    margin-left: 70px;
+    margin-right: 75px;
+}
+.search-bar
+{
+    height: 40px;
+    width: 0;
+   display: flex;
+   flex: 1;
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+   
+}
+
+.search-button
+{
+    height: 45px;
+    width: 80px;
+    background-color: rgb(255, 255, 255);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin-left: -1px;
+    border: 1px solid gray;
+    margin-right: 20px;
+   
+}
+.search-button img
+{
+    height: 24px;
+    width: 20px;
+}
+
+.middle-mic
+{
+    height: 45px;
+    width: 45px;
+    background-color: rgb(255, 255, 255);
+    border: 1px solid gray;
+    border-radius: 22.5px;
+}
+
+.middle-mic img
+{
+    height: 24px;
+    width: 20px;
+}
+.right
+{
+    
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 300px;
+    flex-shrink:0;
+}
+.right-vidio-upload
+{
+    height: 32px;
+    width: 26px;
+   
+}
+.right-grid
+{
+    height: 24px;
+    width: 20px;
+    
+}
+.right-notification
+{
+    height: 24px;
+    width: 20px;
+    
+}
+.right-profile-pic
+{
+    height: 32px;
+    width: 32px;
+    margin-right: 40px;
+    border-radius: 16px;
+}
+.time{
+    position: absolute;
+    background-color: black;
+    color: white;
+    right: 10px;
+    bottom: 10px;
+}
+.vidio-grid{
+    margin-left: 90px;
+}
